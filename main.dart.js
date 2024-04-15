@@ -21440,17 +21440,17 @@ new A.jj(d).aE(i[e])
 d=d.a
 l+=B.c.hv(d.charCodeAt(0)==0?d:d)+"\t"}l+="|"}}for(p=t.s,c=0;c<=4;++c){b=A.a([],p)
 for(o=c*6,a=0;a<=5;++a)b.push(A.axJ(a2,o+a,l).toUpperCase())
-switch(c){case 0:a0.push(new A.dx(b))
+switch(c){case 0:a0.push(new A.dx("Segunda-feira",b))
 break
-case 1:a0.push(new A.dx(b))
+case 1:a0.push(new A.dx("Ter\xe7a-feira",b))
 break
-case 2:a0.push(new A.dx(b))
+case 2:a0.push(new A.dx("Quarta-feira",b))
 break
-case 3:a0.push(new A.dx(b))
+case 3:a0.push(new A.dx("Quinta-feira",b))
 break
-case 4:a0.push(new A.dx(b))
+case 4:a0.push(new A.dx("Sexta-feira",b))
 break
-default:a0.push(new A.dx(b))}}q=a0
+default:a0.push(new A.dx("error please report",b))}}q=a0
 s=1
 break
 case 1:return A.R(q,r)}})
@@ -21469,7 +21469,8 @@ _.c=c
 _.d=d
 _.e=e
 _.r=f},
-dx:function dx(a){this.b=a},
+dx:function dx(a,b){this.a=a
+this.b=b},
 FU:function FU(){},
 YO:function YO(a){this.a=a},
 afS(){return new A.iw(A.bz(null,null,t.K,t.N))},
@@ -67304,7 +67305,7 @@ $.bP.toString
 s=$.ar().a.d===B.a3
 r=A.abG(A.ah(a).ay.a===B.T?B.cO:B.ba)
 q=A.ah(a).ay.a===B.T?B.dW:B.ba
-p=A.lh(s,i.a.c.b[1],B.V,20,B.a8,B.aG)
+p=A.lh(s,i.a.c.a,B.V,20,B.a8,B.aG)
 o=A.nw(i.a.c.b[0])
 o=A.d1(h,A.lh(s,i.a.c.b[0],B.V,15,B.a8,B.aG),h,h,new A.cH(o,h,h,B.bx,h,h,B.a2),60,h,B.bd,h)
 n=A.nw(i.a.c.b[1])
