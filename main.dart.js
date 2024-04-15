@@ -67197,7 +67197,7 @@ default:return new A.tY(this.e,null)}},
 M(a){var s=this,r=null,q=A.add(B.T,r),p=A.add(B.a3,r),o=$.nA(),n=t.fo
 o=A.a([new A.cM(B.BF,new A.nZ(A.a3(new A.a1(B.bj,new A.a7m(),n),!0,n.h("a2.E")),o,new A.a7n(s),16,B.N6,B.Cf,r,t.Af),r),A.agL(r,B.Ch,s.ga29(),r,r)],t.F)
 n=s.d
-return new A.uD(new A.w9(new A.rh(B.Q7,o,new A.Mh(r,r,1/0,56),r),s.Zg(n),new A.rr(B.Dz,new A.a7o(s),n,r,r),r),"Homework App",q,p,B.wK,r)}}
+return new A.uD(new A.w9(new A.rh(B.Q7,o,new A.Mh(r,r,1/0,56),r),s.Zg(n),new A.rr(B.Dz,new A.a7o(s),n,r,r),r),"DeverWeb",q,p,B.wK,r)}}
 A.a7p.prototype={
 $1(a){var s=A.c6(a.a.j(0,"selected_class"))
 if(s!=null&&B.b.p(B.bj,s))$.ald=s},
@@ -76063,7 +76063,7 @@ B.Po=new A.u(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.Pg=new A.u(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView labelMedium",null,null,null,null)
 B.OX=new A.u(!0,B.i,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.Q6=new A.dz(B.OK,B.PP,B.Py,B.NA,B.Pr,B.OI,B.PS,B.O1,B.Oq,B.Pk,B.Ns,B.PA,B.Po,B.Pg,B.OX)
-B.Q7=new A.pC("Homework App",null,null,null,null,null,null,null,null)
+B.Q7=new A.pC("DeverWeb",null,null,null,null,null,null,null,null)
 B.wK=new A.HM(0,"system")
 B.Q8=new A.HM(2,"dark")
 B.wL=new A.x1(0)
